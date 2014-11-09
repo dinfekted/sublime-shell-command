@@ -5,7 +5,10 @@
     "args": {
       "command": "rm",
       "args": ["demo.avi"]
-    }
+    },
+    "context": [
+      {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
+    ]
   },
 
   {
@@ -14,7 +17,10 @@
     "args": {
       "command": "uscreencast",
       "args": ["demo.avi"]
-    }
+    },
+    "context": [
+      {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
+    ]
   },
 
   {
@@ -23,6 +29,9 @@
     "args": {
       "command": "pkill",
       "args": ["ffmpeg"]
-    }
+    },
+    "context": [
+      {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
+    ]
   }
 ]
